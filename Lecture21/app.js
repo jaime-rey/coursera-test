@@ -35,8 +35,8 @@
     let list3 = this;
     list3.items = ShoppingListService.getItems();
 
-    list3.itemName = "grocery";
-    list3.itemQuantity = 1;
+    list3.itemName = "";
+    list3.itemQuantity = "";
 
     list3.addItem = function () {
       try {
