@@ -54,7 +54,7 @@
         <button ng-click="list3.removeItem($index);">Remove Item</button>
       </li>
     </ol>
-    <div class="error">Error: {{list3.errorMessage}}</div>
+    <div ng-If="list3.errorMessage" class="error">Error: {{list3.errorMessage}}</div>
   </div>
 
 </body>
