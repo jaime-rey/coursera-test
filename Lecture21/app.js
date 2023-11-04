@@ -5,7 +5,9 @@
     .module("ControllerAsApp", [])
     .controller("ShoppingListController1", ShoppingListController1)
     .controller("ShoppingListController2", ShoppingListController2)
-    .factory("ShoppingListFactory", ShoppingListFactory);
+    .controller("ShoppingListController3", ShoppingListController3)
+    .factory("ShoppingListFactory", ShoppingListFactory)
+    .provider("ShoppingListService", ShoppingListServiceProvider);
 
   // LIST #1 - controller
   ShoppingListController1.$inject = ["ShoppingListFactory"];
