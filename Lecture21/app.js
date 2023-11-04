@@ -9,6 +9,11 @@
     .factory("ShoppingListFactory", ShoppingListFactory)
     .provider("ShoppingListService", ShoppingListServiceProvider);
 
+  Config.$inject = ["ShoppingListServiceProvider"];
+  function Config(ShoppingListServiceProvider) {
+    ShoppingListServiceProvider.defaults.maxItems = 2;
+  }
+
   // LIST #1 - controller
   ShoppingListController1.$inject = ["ShoppingListFactory"];
   function ShoppingListController1(ShoppingListFactory) {
