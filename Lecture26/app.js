@@ -14,6 +14,7 @@
     const ddo = {
       template: "{{ item.quantity }} of {{ item.name }}",
     };
+
     return ddo;
   }
 
