@@ -8,7 +8,16 @@
     .controller("ShoppingListController3", ShoppingListController3)
     .factory("ShoppingListFactory", ShoppingListFactory)
     .provider("ShoppingListService", ShoppingListServiceProvider)
-    .directive("listItemDescription", ListItemDescription);
+    .directive("listItemDescription", ListItemDescription)
+    .directive("listItem", ListItem);
+
+  function ListItem() {
+    var ddo = {
+      templateUrl: listItem.html,
+    };
+
+    return ddo;
+  }
 
   function ListItemDescription() {
     const ddo = {
