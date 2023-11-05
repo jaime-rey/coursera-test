@@ -12,7 +12,7 @@
 
   function ListItemDescription() {
     const ddo = {
-      template: "<li>{{ item.quantity }} of {{ item.name }}</li>",
+      template: "{{ item.quantity }} of {{ item.name }}",
     };
     return ddo;
   }
