@@ -13,7 +13,7 @@
 
   function ListItem() {
     const ddo = {
-      templateUrl: "listItem.html",
+      templateUrl: listItem.html,
     };
 
     return ddo;
