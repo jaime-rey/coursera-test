@@ -12,8 +12,8 @@
     .directive("listItem", ListItem);
 
   function ListItem() {
-    var ddo = {
-      templateUrl: listItem.html,
+    const ddo = {
+      templateUrl: "listItem.html",
     };
 
     return ddo;
