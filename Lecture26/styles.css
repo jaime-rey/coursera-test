@@ -1,0 +1,13 @@
+body {
+  font-size: 1.2em;
+}
+#list1, #list2 , #list3 {
+  float: left;
+}
+#list2, #list3 {
+  margin-left: 40px;
+}
+
+.error {
+  color: red;
+}
